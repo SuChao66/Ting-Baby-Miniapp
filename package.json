@@ -1,0 +1,50 @@
+{
+  "name": "ting-baby-miniapp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "汀宝宝记忆 · 微信小程序（Taro 4.3.2 + React 18）",
+  "scripts": {
+    "dev:weapp": "npm run build:weapp -- --watch",
+    "build:weapp": "taro build --type weapp",
+    "lint": "eslint .",
+    "format": "prettier --write \"src/**/*.{ts,tsx,scss}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,scss}\""
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.24.4",
+    "@tarojs/components": "4.3.2",
+    "@tarojs/helper": "4.3.2",
+    "@tarojs/plugin-framework-react": "4.3.2",
+    "@tarojs/plugin-platform-weapp": "4.3.2",
+    "@tarojs/react": "4.3.2",
+    "@tarojs/runtime": "4.3.2",
+    "@tarojs/shared": "4.3.2",
+    "@tarojs/taro": "4.3.2",
+    "react": "^18.3.1",
+    "zustand": "^5.0.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-react": "^7.29.7",
+    "@commitlint/cli": "^21.2.1",
+    "@commitlint/config-conventional": "^21.2.0",
+    "@eslint/js": "^10.0.1",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
+    "@tarojs/cli": "4.3.2",
+    "@tarojs/webpack5-runner": "4.3.2",
+    "@types/node": "^24.13.3",
+    "@types/react": "^18.3.12",
+    "@types/webpack-env": "^1.13.6",
+    "babel-preset-taro": "4.3.2",
+    "eslint": "^10.8.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.7.0",
+    "postcss": "^8.4.38",
+    "prettier": "^3.9.6",
+    "react-refresh": "^0.14.0",
+    "sass": "^1.77.0",
+    "typescript": "~5.9.2",
+    "typescript-eslint": "^8.65.0",
+    "webpack": "^5.91.0"
+  }
+}

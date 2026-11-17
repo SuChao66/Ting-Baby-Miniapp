@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.swc/
+.DS_Store
+*.log
+*.local
+
+# 微信开发者工具个人配置
+project.private.config.json
